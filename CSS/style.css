@@ -5,40 +5,40 @@
 
 @font-face {
   font-family: 'Gotham Pro Regular';
-  src: url('GothamPro.eot');
-  src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
-    url('GothamPro.woff') format('woff'),
-    url('GothamPro.ttf') format('truetype');
+  src: url('../fonts/GothamPro.eot');
+  src: url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GothamPro.woff') format('woff'),
+    url('../fonts/GothamPro.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato Regular';
-  src: url('Lato-Regular.eot');
-  src: url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
-    url('Lato-Regular.woff') format('woff'),
-    url('Lato-Regular.ttf') format('truetype');
+  src: url('../fonts/Lato-Regular.eot');
+  src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato-Regular.woff') format('woff'),
+    url('../fonts/Lato-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato Medium';
-  src: url('Lato-Medium.eot');
-  src: url('Lato-Medium.eot?#iefix') format('embedded-opentype'),
-    url('Lato-Medium.woff') format('woff'),
-    url('Lato-Medium.ttf') format('truetype');
+  src: url('../fonts/Lato-Medium.eot');
+  src: url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato-Medium.woff') format('woff'),
+    url('../fonts/Lato-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato Semibold';
-  src: url('Lato-SemiboldItalic.eot');
-  src: url('Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
-    url('Lato-SemiboldItalic.woff') format('woff'),
-    url('Lato-SemiboldItalic.ttf') format('truetype');
+  src: url('../fonts/Lato-SemiboldItalic.eot');
+  src: url('../fonts/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato-SemiboldItalic.woff') format('woff'),
+    url('../fonts/Lato-SemiboldItalic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -67,13 +67,13 @@ section {
 }
 
 .box-1 {
-  background: url("box1_bg.png") no-repeat center;
+  background: url("../Img/box1_bg.png") no-repeat center;
   background-size: contain;
   z-index: 2;
 }
 
 .box-3 {
-  background: url("box-3bg.png") no-repeat center;
+  background: url("../Img/box-3bg.png") no-repeat center;
   background-size: contain;
   z-index: 2;
 }
@@ -105,7 +105,7 @@ section {
 .box-2 {
   box-sizing: border-box;
   min-height: 100vh;
-  background-image: url("box2_bg.png");
+  background-image: url("../Img/box2_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -723,7 +723,7 @@ section {
   width: 100vw;
   height: 100px;
   color:white;
-  background-image: url("Rectangle%205.png");
+  background-image: url("../Img/Rectangle%205.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
